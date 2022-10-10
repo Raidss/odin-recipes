@@ -26,3 +26,11 @@ ol {
 .list-box {
     max-width: 40%;
 }
+
+#nav-recipe-list {
+    list-style: none;
+}
+
+#nav-recipe-list li {
+    margin-bottom: 25px;
+}
