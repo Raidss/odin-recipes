@@ -3,6 +3,10 @@ html {
     font-size: 20px;
 }
 
+body{
+    background-color: #2A2B2A;
+    text-align: center;
+}
 
 .recipe-image {
     aspect-ratio: 1/1;
@@ -27,10 +31,41 @@ ol {
     max-width: 40%;
 }
 
+div#recipe-nav-box {
+    display: inline-block;
+    width: 50%;
+    justify-content: center;
+}
 #nav-recipe-list {
     list-style: none;
+    text-align: left;
+    width: 250px;
 }
 
 #nav-recipe-list li {
     margin-bottom: 25px;
+}
+
+.article-link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover.article-link:before {
+    content: ">";
+}
+
+a:hover.article-link.pizza:after {
+    content: url(images/detroit-pizza_200x200.jpeg);
+
+}
+
+a:hover.article-link.egg-casserole:after {
+    content: url(images/egg-before_200x200.webp);
+
+}
+
+a:hover.article-link.lemon-lush:after {
+    content: url(images/lemon-before_200x200.webp);
+
 }
