@@ -30,6 +30,7 @@ ol {
 
 .list-box {
     max-width: 40%;
+    text-align: left;
 }
 
 div#recipe-nav-box {
