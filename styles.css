@@ -31,6 +31,7 @@ ol {
 .list-box {
     max-width: 40%;
     text-align: left;
+    padding: 0;
 }
 
 div#recipe-nav-box {
@@ -55,7 +56,7 @@ div#recipe-nav-box {
     color: white;
 }
 
-a:hover.article-link:before {
+a:hover.article-link:before, a:hover#home-link:before  {
     content: ">";
 }
 
@@ -72,4 +73,9 @@ a:hover.article-link.egg-casserole:after {
 a:hover.article-link.lemon-lush:after {
     content: url(images/lemon-before_200x200.webp);
 
+}
+
+#home-link {
+    color: white;
+    text-decoration: none;
 }
