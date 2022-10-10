@@ -1,0 +1,28 @@
+html {
+    line-height: .3in;
+    font-size: 20px;
+}
+
+
+.recipe-image {
+    aspect-ratio: 1/1;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+ol {
+    list-style: none;
+}
+
+.step-header {
+    margin-bottom: 0px;
+}
+
+.step-description {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.list-box {
+    max-width: 40%;
+}
