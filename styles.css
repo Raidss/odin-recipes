@@ -37,9 +37,11 @@ div#recipe-nav-box {
     justify-content: center;
 }
 #nav-recipe-list {
+    display: inline-block;
     list-style: none;
     text-align: left;
     width: 250px;
+    justify-content: center;
 }
 
 #nav-recipe-list li {
